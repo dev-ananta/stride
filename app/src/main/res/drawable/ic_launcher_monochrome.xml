@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Stride mark: a route climbing up and to the right, from a start dot to an arrow. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#00000000" android:strokeColor="#FF000000" android:strokeWidth="7"
+        android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M36,73 C48,73 42,56 55,54 C67,52 62,40 70,37" />
+    <path android:fillColor="#FF000000" android:pathData="M62.5,32.5 L77,30 L72.5,44 Z" />
+    <path android:fillColor="#FF000000" android:pathData="M36,73m-8.5,0a8.5,8.5 0,1 1,17 0a8.5,8.5 0,1 1,-17 0" />
+    <path android:fillColor="#00000000" android:pathData="M36,73m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+</vector>
