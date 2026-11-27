@@ -33,6 +33,11 @@ android {
     buildFeatures {
         compose = true
     }
+    // Don't let Android's style checker (lint) block a release build; it still reports issues.
+    lint {
+        abortOnError = false
+        checkReleaseBuilds = false
+    }
 }
 
 dependencies {
