@@ -96,8 +96,9 @@ class MainActivity : ComponentActivity() {
     }
 
     /** "Open with Stride" / "Share to Stride" for GPX and TCX files. */
-    private fun handleIncoming(i: Intent?) {
-        val uri: Uri = when (i?.action) {
+    private fun handleIncoming(intent: Intent?) {
+        val i = intent ?: return
+        val uri: Uri = when (i.action) {
             Intent.ACTION_VIEW -> i.data
             Intent.ACTION_SEND -> @Suppress("DEPRECATION") i.getParcelableExtra<Uri>(Intent.EXTRA_STREAM)
             else -> null
